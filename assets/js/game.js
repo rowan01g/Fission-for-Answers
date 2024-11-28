@@ -215,7 +215,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS ) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html') 
+       // return window.location.assign('/end.html') - this has been commented out as without including an end.html, previews will return a 404
     }
     questionCounter++ 
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}` 
