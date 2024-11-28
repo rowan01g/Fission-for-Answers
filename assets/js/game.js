@@ -207,6 +207,8 @@ the text of the question to be displayed is sourced from the currrentQuestion
 The function then iterates over all the choices in the html
 it declares number as the number associated with the "dataset" class 
 the text of choice in the game is then pulled from the currentQuestion 
+
+The question just presented is then removed from the availibleQuestions pool using questionsIndex and splice
 */
 
 getNewQuestion = () => {
@@ -228,4 +230,7 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number] // eg. choice4: "Paris" - inner text will retrieve "Paris" as currentQuestion retrieves "choice4" - "choice4" will correspond to an actual question
     })
 
-    
+    availableQuestions.splice(questionsIndex, 1)
+    acceptingAnswers = true 
+}
+
