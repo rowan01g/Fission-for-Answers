@@ -241,11 +241,12 @@ if (!acceptingAnswers) false then insured that one cannot click on the button mu
 The choice the user selected is captured with e.target
 SelectedAnswer is then declared and assigned a number from selectedChoice
 classToApply is assigned correct or incorrect depending on if the selected answer macthes the answer of currentQuestion 
-if classToApply is correct, the score is increased by 10 points
+if classToApply is correct, the score is increased by 10 points using the function incrementScore
 
 class ('correct' or 'incorrect') is added to the parent element of the selected choice. This is used to visually indicate whether the choice was correct or incorrect (e.g., changing its background colour).
 The applied class ('correct' or 'incorrect') is removed to reset the visual state of the choice.
 execution of the code inside the function is delayed by 1000 milliseconds before moving on the next question
+
 */
 
 choices.forEach(choice => {
@@ -270,3 +271,12 @@ choices.forEach(choice => {
         }, 1000) 
     })
 })
+
+/* The incrementScopre function is decalred */
+
+incrementScore = num => {
+    score +=num
+    scoreText.innerText = score
+}
+
+startGame()
