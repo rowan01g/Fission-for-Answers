@@ -1,0 +1,104 @@
+body {
+    color: #fff;
+}
+
+/* some colours - CSS HEX */
+:root{
+    --pumpkin: #ff6d00ff;
+    --safety-orange: #ff7900ff;
+    --ut-orange: #ff8500ff;
+    --princeton-orange: #ff9100ff;
+    --orange-peel: #ff9e00ff;
+    --russian-violet: #240046ff;
+    --persian-indigo: #3c096cff;
+    --tekhelet: #5a189aff;
+    --french-violet: #7b2cbfff;
+    --amethyst: #9d4eddff;
+    background-color: #111211;
+    }
+
+.question-container {
+    height: 70vh;
+    width: 60vw;
+    position: relative;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #111211;
+    margin: 0 auto;
+    padding-top: 5rem;
+    margin-top: 10rem;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient( var(--amethyst) 0%, var(--tekhelet) 100%);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer; 
+    box-shadow: 0 0.4rem 1.4rem 0 rgbs(6, 103, 247, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    Color: #fff;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+/*Changes the colour of the choice button depending on whether the question was answered correctly or incorrectly*/
+.correct {
+    background: linear-gradient(32deg, rgb(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgb(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+/*Heads up Display*/
+#hud {
+    display:flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid var(--pumpkin);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: var(--orange-peel);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
