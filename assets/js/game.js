@@ -193,3 +193,39 @@ startGame = () => {
     availableQuestions = [...questions] /
     getNewQuestion()
 }
+
+/*
+In the getNewQuestion function, first, js checks if there are no more available questions or the question counter has exceeded the maximum allowed questions - if so the score is recorded
+The user is then also directed to the end.html page as the game has ended
+If the game can continue, the questionCounter is incremented by 1 - inner text displays what question of the maxiumum allowed questions you are curently on
+the ratio of questionCounter to MAX_QUESTIONS is taken and displayed as a progress bar 
+
+questionsIndex is a number that is randomly generated between 0 and the number of questions in availableQuestions
+The currentQuestion is then displayed by taking the banked question information using questionsIndex 
+the text of the question to be displayed is sourced from the currrentQuestion
+
+The function then iterates over all the choices in the html
+it declares number as the number associated with the "dataset" class 
+the text of choice in the game is then pulled from the currentQuestion 
+*/
+
+getNewQuestion = () => {
+    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS ) {
+        localStorage.setItem('mostRecentScore', score)
+
+        return window.location.assign('/end.html') 
+    }
+    questionCounter++ 
+    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}` 
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+    currentQuestion = availableQuestions[questionsIndex] 
+    question.innerText = currentQuestion.question
+
+    choices.forEach(choice => {
+        const number = choice.dataset['number'] 
+        choice.innerText = currentQuestion['choice' + number] // eg. choice4: "Paris" - inner text will retrieve "Paris" as currentQuestion retrieves "choice4" - "choice4" will correspond to an actual question
+    })
+
+    
