@@ -234,3 +234,39 @@ getNewQuestion = () => {
     acceptingAnswers = true 
 }
 
+/*
+In this function, the actions are repeated for each choice. Fisrt, an EventListener is added to each choice and given the variable, e
+if (!acceptingAnswers) false then insured that one cannot click on the button multiple times - acceptingAsnwers = false is declared after this line
+
+The choice the user selected is captured with e.target
+SelectedAnswer is then declared and assigned a number from selectedChoice
+classToApply is assigned correct or incorrect depending on if the selected answer macthes the answer of currentQuestion 
+if classToApply is correct, the score is increased by 10 points
+
+class ('correct' or 'incorrect') is added to the parent element of the selected choice. This is used to visually indicate whether the choice was correct or incorrect (e.g., changing its background colour).
+The applied class ('correct' or 'incorrect') is removed to reset the visual state of the choice.
+execution of the code inside the function is delayed by 1000 milliseconds before moving on the next question
+*/
+
+choices.forEach(choice => {
+    choice.addEventListener('click', e => { 
+        if(!acceptingAnswers) return
+
+        acceptingAnswers = false 
+        const selectedChoice = e.target 
+        const selectedAnswer = selectedChoice.dataset['number'] 
+
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct': 'incorrect' 
+
+        if(classToApply === 'correct') {
+            incrementScore(SCORE_POINTS)
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply) //
+
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply) // 
+            getNewQuestion()
+        }, 1000) 
+    })
+})
