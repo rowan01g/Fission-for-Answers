@@ -174,3 +174,22 @@ let questions = [ //question bank - physics, need to add chemistry and biology
         answer: 4,
     }
 ];
+
+/*
+10 points are earned for every question correctly answered
+and only 10 questions may be answered
+*/
+const SCORE_POINTS = 10
+const MAX_QUESTIONS = 10
+
+/*
+The arrow function startGame ensures the question counter and score are set to 0. 
+The variable availibleQuestions is also created from the questions bank 
+The function getNewQuestion is called at the start fof the game 
+*/
+startGame = () => {
+    questionCounter = 0 
+    score = 0 
+    availableQuestions = [...questions] /
+    getNewQuestion()
+}
