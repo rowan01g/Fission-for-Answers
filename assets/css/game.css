@@ -18,13 +18,19 @@ body {
     }
 
 .question-container {
+    height: 70vh;
+    width: 60vw;
     position: relative;
     border-radius: 35px;
     display: flex;
     justify-content: center;
     align-items: center; 
     background-color: #111211;
+    margin: 0 auto;
+    padding-top: 5rem;
+    margin-top: 10rem;
 }
+
 
 .choice-container {
     display: flex;
