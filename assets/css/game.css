@@ -17,6 +17,15 @@ body {
     background-color: #111211;
     }
 
+#game-title {
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+    font-weight: 100;
+    font-style: italic;
+}
+
 .question-container {
     height: 70vh;
     width: 60vw;
@@ -28,7 +37,7 @@ body {
     background-color: #111211;
     margin: 0 auto;
     padding-top: 5rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .choice-container {
