@@ -8,26 +8,12 @@
     <link rel="stylesheet" href="assets/css/game.css">
 </head>
 <body>
-    <div class="container">
+    <div>
+        <h1>Fission for Answers!</h1>
+    </div>
+    <div class="question-container glow">
         <div id="game" class="justify-center flex-column">
-            <div id="hud">
-                <div class="hud-item">
-                    <p id="progressText" class="hud-prefix">
-                        Question 
-                    </p>
-                    <div id="progressBar">
-                        <div id="progressBarFull"></div>
-                    </div>
-                </div>
-                <div class="hud-item">
-                    <p class="hud-prefix">
-                        Score
-                    </p>
-                    <h1 class="hud-main-text" id="score">
-                        0
-                    </h1>
-                </div>
-            </div>
+            
             <!--Answer choices-->
             <h1 id="question">What is the answer to this question?</h1>
             <div class="choice-container">
@@ -46,6 +32,31 @@
                 <p class="choice-prefix">D</p>
                 <p class="choice-text" data-number="4">Choice 4</p>
             </div>
+
+            <div id="hud">
+                <div class="hud-item">
+
+                    <!--Question x of x -->
+                    <p id="progressText" class="hud-prefix">
+                        Question 
+                    </p>
+                    <!--Progress bar-->
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                    <!--Seperate hud item for score-->
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+
+            </div>
+
         </div>
     </div>
     <script src="assets/js/game.js"></script>
