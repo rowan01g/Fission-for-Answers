@@ -2,12 +2,27 @@ body {
     color: #fff;
 }
 
+/* some colours - CSS HEX */
+:root{
+    --pumpkin: #ff6d00ff;
+    --safety-orange: #ff7900ff;
+    --ut-orange: #ff8500ff;
+    --princeton-orange: #ff9100ff;
+    --orange-peel: #ff9e00ff;
+    --russian-violet: #240046ff;
+    --persian-indigo: #3c096cff;
+    --tekhelet: #5a189aff;
+    --french-violet: #7b2cbfff;
+    --amethyst: #9d4eddff;
+    background-color: #111211;
+    }
+
 .choice-container {
     display: flex;
-    margin-bottom: 0.8rem;
+    margin-bottom: 2rem;
     width: 100%;
-    border-radius: 4px;
-    background: rgb(18, 93, 255);
+    border-radius: 20px;
+    background: linear-gradient( var(--amethyst) 0%, var(--tekhelet) 100%);
     font-size: 3rem;
     min-width: 80rem;
 }
