@@ -36,3 +36,34 @@
         margin-top: 4rem;
         margin-bottom: 4rem;
     }
+
+    .rule-list {
+        font-size: 4rem;
+        color: #fff;
+        margin-bottom: 4rem;
+    }
+
+/*need to make a media query for this*/
+    .hero-img {
+        position: relative;
+        width: 500%;
+        height: 500px;
+        margin: auto 0;
+        background: url(../images/outer-space.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 5rem;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+        border-radius: 35px;
+    }
+
+    .quiz-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 7.8rem;
+        color: #fff;
+        font-weight: 1000;
+    }
