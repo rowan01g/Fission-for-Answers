@@ -1,0 +1,17 @@
+/*Import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nova+Square&family=Space+Grotesk:wght@300..700&family=Zen+Dots&display=swap');
+
+/* some colours - CSS HEX */
+:root{
+    --pumpkin: #ff6d00ff;
+    --safety-orange: #ff7900ff;
+    --ut-orange: #ff8500ff;
+    --princeton-orange: #ff9100ff;
+    --orange-peel: #ff9e00ff;
+    --russian-violet: #240046ff;
+    --persian-indigo: #3c096cff;
+    --tekhelet: #5a189aff;
+    --french-violet: #7b2cbfff;
+    --amethyst: #9d4eddff;
+    background-color: #111211;
+    }
