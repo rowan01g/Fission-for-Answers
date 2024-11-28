@@ -189,7 +189,7 @@ The function getNewQuestion is called at the start fof the game
 startGame = () => {
     questionCounter = 0 
     score = 0 
-    availableQuestions = [...questions] /
+    availableQuestions = [...questions]
     getNewQuestion()
 }
 
