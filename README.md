@@ -44,6 +44,12 @@ And here are the specifics
 
 # Design 
 
+
+### Colour scheme 
+The following colours were used to create a changing gradient glow effect on the hero image. 
+![gradient colour scheme and hex values](/assets/images/readme/glow-colours.png)
+
+
 ## UX
 
 ## Planning
