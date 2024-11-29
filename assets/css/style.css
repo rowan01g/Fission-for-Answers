@@ -53,6 +53,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5rem;
+        margin: 5rem;
         margin-bottom: 5rem;
         margin-top: 5rem;
         border-radius: 35px;
@@ -83,13 +84,13 @@
     .glow::after {
         content: "";
         position: absolute;
-        left: -2px;
-        top: -2px;
+        left: -2px; /* was -2 */
+        top: -2px; /* was -2 */
         background: linear-gradient(
             -45deg, #00ff66, #00ffff, #ff00ff, #ff0099, #099fff
         );
         background-size: 400%;
-        height: calc(100% + 5px);
+        height: calc(100% + 5px); /* was 5 */
         width: calc(100% + 5px);
         z-index: -1;
         animation: change 40s linear infinite;
@@ -202,6 +203,8 @@
     }
 }
 
+/* smaller laptops */ 
+
 @media (max-width: 992px) {
     h1 {
         font-size: 3.6rem;
@@ -214,13 +217,19 @@
 /* small tablets */
 
 @media (max-width: 768px) {
+
+    .hero-img {
+        padding: 20px;
+        background-position: center center;
+    }
+
     .quiz-title {
         font-size: 5rem;
         margin-bottom: 2.5rem;
     }
 
     .quiz-sub {
-        font-size: 4rem;
+        font-size: 3.5rem; /* could be bigger but to keep it fluid with down dizing the screen */
     }
 }
 
@@ -232,7 +241,6 @@
 
     .hero-img {
         padding: 30px 10px;
-        background-size: cover;
         background-position: top center;
     }
 
