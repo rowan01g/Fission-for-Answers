@@ -17,6 +17,8 @@ body {
     background-color: #111211;
     }
 
+/*observe index.html - how did i get the text to align into the center of the box in that case? repeat this for the choices*/
+
 #game-title {
     font-size: 4rem;
     text-align: center;
@@ -27,6 +29,7 @@ body {
 }
 
 .question-container {
+    flex-direction: column;
     height: 70vh;
     width: 60vw;
     position: relative;
@@ -41,7 +44,9 @@ body {
 }
 
 .choice-container {
+    justify-content: center;
     display: flex;
+    margin: 2rem;
     margin-bottom: 2rem;
     width: 100%;
     border-radius: 20px;

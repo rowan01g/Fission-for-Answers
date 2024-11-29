@@ -35,6 +35,7 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    max-width: 50px;
 }
 
 .btn-color:hover {
