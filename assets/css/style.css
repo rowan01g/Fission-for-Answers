@@ -178,6 +178,8 @@
         margin-bottom: 4rem ;
     }
 
+    /*Style font awesome icons*/
+    
     .fa-rocket {
         font-size: 2.5rem;
         margin-left: 1rem;
@@ -189,6 +191,16 @@
     }
     
     .fa-book {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .fa-rotate-right {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .fa-globe {
         font-size: 2.5rem;
         margin-left: 1rem;
     }
