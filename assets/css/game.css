@@ -95,6 +95,7 @@ body {
 }
 
 .hud-prefix {
+    padding-top: 1rem;
     text-align: center;
     font-size: 2rem;
 }
