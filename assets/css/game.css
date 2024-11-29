@@ -64,7 +64,7 @@ body {
     margin-bottom: 5vh;
     width: 60vw;
     height: 20vh;
-    overflow: scroll;
+    overflow-y: auto;
 }
 
 @media (min-width: 520px) {
