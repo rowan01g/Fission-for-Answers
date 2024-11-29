@@ -50,7 +50,9 @@ body {
     margin: auto 0;
     position: relative;
 
-    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50wv;
 
     margin-bottom: 2rem;
     border-radius: 20px;
@@ -88,6 +90,7 @@ body {
 /*Heads up Display*/
 #hud {
     display:flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -96,13 +99,17 @@ body {
     font-size: 2rem;
 }
 
-.hud-main-text {
-    text-align: center;
+.hud-item-2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    position: relative;
 }
 
 #progressBar {
-    width: 20rem;
-    height: 3rem;
+    width: 75vw;
+    height: 1rem;
     border: 0.2rem solid var(--pumpkin);
     margin-top: 2rem;
     border-radius: 50px;
@@ -113,6 +120,10 @@ body {
     height: 100%;
     background: var(--orange-peel);
     width: 0%;
+}
+
+.hud-main-text {
+    text-align: center;
 }
 
 
