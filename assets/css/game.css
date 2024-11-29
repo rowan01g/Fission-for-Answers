@@ -28,6 +28,8 @@ body {
     font-style: italic;
 }
 
+/*Question counter*/
+
 .question-container {
     flex-direction: column;
     height: 80vh;
@@ -50,6 +52,8 @@ body {
 .flex-row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    height: auto;
 }
 
 .question-text-container {
@@ -60,11 +64,33 @@ body {
     margin-bottom: 5vh;
     width: 60vw;
     height: 20vh;
+    overflow: scroll;
 }
+
+@media (min-width: 520px) {
+    #question {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 861px) {
+    #question {
+        font-size: 58px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #question {
+        font-size: 70px;
+    }
+}
+
+/*Score*/
 
 .hud-item-3 {
     justify-content: center;
     width: 10vw;
+    padding-left: 1vw;
 }
 
 .hud-prefix {
@@ -77,6 +103,8 @@ body {
     text-align: center;
     font-size:calc(12px + 3vw)
 }
+
+/*Choice buttons*/
 
 .choice-container {
     justify-content: center;
@@ -128,8 +156,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 
 .hud-item-2 {
     justify-content: center;
