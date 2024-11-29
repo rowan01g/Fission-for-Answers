@@ -219,17 +219,55 @@
 
 /*Responsive Design */
 
-@media (max-width: 1200px) {
-    h1 {
-        font-size: 4.5rem;
-        margin-bottom: 4rem;
+@media (max-width: 1700px) {
+    .quiz-title {
+        font-size: 6rem;
+        white-space: nowrap;
+        margin-bottom: 10px
+
     }
+
+    .quiz-sub {
+        font-size: 4.5rem; /* to be smaller than the heading for consistency's sake */
+        margin-top: 30px;
+        white-space: nowrap;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .quiz-title {
+        font-size: 6rem;
+        white-space: nowrap;
+        margin-bottom: 10px
+
+    }
+
+    .quiz-sub {
+        font-size: 4.5rem; /* to be smaller than the heading for consistency's sake */
+        margin-top: 30px;
+        white-space: nowrap;
+    }
+
 }
 
 @media (max-width: 992px) {
-    h1 {
-        font-size: 3.6rem;
-        margin-bottom: 3rem;
+   /* need to ammend so its less 'wobbily' and fixed without breaking */
+   
+    .quiz-title {
+        font-size: 5.5rem;
+        white-space: nowrap;
+
+    }
+
+    .quiz-sub {
+        font-size: 4rem; /* to be smaller than the heading for consistency's sake */
+        margin-top: 20px;
+        white-space: nowrap;
+    }
+
+    .container {
+        padding: 30px;
     }
 }
 
@@ -243,6 +281,7 @@
     .quiz-sub {
         font-size: 3.5rem; /* to be smaller than the heading for consistency's sake */
         margin-top: 30px;
+        white-space: nowrap;
     }
 
     .hero-img {
