@@ -15,9 +15,19 @@
         <div id="game" class="justify-center flex-column">
             
             <!--Answer choices-->
-            <div class = "question-text-container">  
-                <h1 id="question">What is the answer to this question?</h1>
-            </div>  
+            <div class = flex-row>
+                <div class = "question-text-container">  
+                    <h1 id="question">What is the answer to this question?</h1>
+                </div>  
+                <div class="hud-item-3">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>    
             <div class="choice-container">
                 <p class="choice-prefix">A</p>
                 <p class="choice-text" data-number="1">Choice 1</p>
@@ -49,15 +59,6 @@
                     </div>
                 </div>
                     <!--Seperate hud item for score-->
-                <div class="hud-item">
-                    <p class="hud-prefix">
-                        Score
-                    </p>
-                    <h1 class="hud-main-text" id="score">
-                        0
-                    </h1>
-                </div>
-
             </div>
 
         </div>
