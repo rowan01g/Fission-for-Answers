@@ -46,6 +46,7 @@
     #home {
         width: 100%;
     }
+
 /*need to make a media query for this*/
     .hero-img {
         position: relative;
@@ -206,7 +207,17 @@
         margin-left: 1rem;
     }
 
-/* Responsive Design */
+    .fa-bars {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .fa-solid {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+/*Responsive Design
 
 @media (max-width: 1200px) {
     h1 {
@@ -267,3 +278,5 @@
         padding: 20px;
     }
 }
+
+*/
