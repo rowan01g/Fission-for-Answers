@@ -27,7 +27,6 @@
     h1 {
         font-size: 5.4rem;
         color: #fff;
-        margin-bottom: 5rem;
     }
     
     h2 {
@@ -43,17 +42,20 @@
         margin-bottom: 4rem;
     }
 
+
+    #home {
+        width: 100%;
+    }
 /*need to make a media query for this*/
     .hero-img {
         position: relative;
-        width: 500%;
+        width: 100%;
         height: 500px;
         margin: auto 0;
         background: url(../images/outer-space.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5rem;
-        margin: 5rem;
         margin-bottom: 5rem;
         margin-top: 5rem;
         border-radius: 35px;
@@ -84,13 +86,13 @@
     .glow::after {
         content: "";
         position: absolute;
-        left: -2px; /* was -2 */
-        top: -2px; /* was -2 */
+        left: -2px;
+        top: -2px;
         background: linear-gradient(
             -45deg, #00ff66, #00ffff, #ff00ff, #ff0099, #099fff
         );
         background-size: 400%;
-        height: calc(100% + 5px); /* was 5 */
+        height: calc(100% + 5px);
         width: calc(100% + 5px);
         z-index: -1;
         animation: change 40s linear infinite;
@@ -117,14 +119,12 @@
     }
 
     .container {
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        min-height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center; 
-        max-width: 80rem;
-        margin: 0 auto;
-        padding: 2rem;
+        padding: 0 100px;
     }
 
     .flex-column {
@@ -179,6 +179,8 @@
         margin-bottom: 4rem ;
     }
 
+    /*Style font awesome icons*/
+
     .fa-rocket {
         font-size: 2.5rem;
         margin-left: 1rem;
@@ -194,7 +196,17 @@
         margin-left: 1rem;
     }
 
-/*Responsive Design*/
+    .fa-rotate-right {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .fa-globe {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+/* Responsive Design */
 
 @media (max-width: 1200px) {
     h1 {
@@ -203,8 +215,6 @@
     }
 }
 
-/* smaller laptops */ 
-
 @media (max-width: 992px) {
     h1 {
         font-size: 3.6rem;
@@ -212,44 +222,48 @@
     }
 }
 
-
-
-/* small tablets */
-
 @media (max-width: 768px) {
-
-    .hero-img {
-        padding: 20px;
-        background-position: center center;
-    }
-
     .quiz-title {
-        font-size: 5rem;
-        margin-bottom: 2.5rem;
+        font-size: 4.5rem;
+        white-space: nowrap;
+
     }
 
     .quiz-sub {
-        font-size: 3.5rem; /* could be bigger but to keep it fluid with down dizing the screen */
+        font-size: 3.5rem; /* to be smaller than the heading for consistency's sake */
+        margin-top: 30px;
+    }
+
+    .hero-img {
+        max-height: 300px;
+    
+    }
+
+    .container {
+        padding: 20px;
     }
 }
 
 
-/* mobile devices */ 
-
-
+/* MOBILE !! */ 
 @media (max-width: 576px) {
-
-    .hero-img {
-        padding: 30px 10px;
-        background-position: top center;
-    }
-
     .quiz-title {
-        font-size: 3.5rem; /* I think max size in case of quite thin mobile, while on one line */ 
-        word-wrap: break-word; /* this isn't actually breaking the word at the moment... */ 
+        font-size: 3rem; /* i think max in case of small smart phone i.e. approx 375px */ 
+        white-space: nowrap;
+
     }
 
     .quiz-sub {
-        font-size: 3rem;
+        font-size: 2.5rem; /* to be smaller than the heading for consistency's sake */
+        margin-top: 30px;
+    }
+
+    .hero-img {
+        max-height: 300px;
+    
+    }
+
+    .container {
+        padding: 20px;
     }
 }
