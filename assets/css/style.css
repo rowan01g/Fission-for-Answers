@@ -209,16 +209,39 @@
     }
 }
 
+
+
+/* small tablets */
+
 @media (max-width: 768px) {
-    h1 {
-        font-size: 2.8rem;
+    .quiz-title {
+        font-size: 5rem;
         margin-bottom: 2.5rem;
+    }
+
+    .quiz-sub {
+        font-size: 4rem;
     }
 }
 
+
+/* mobile devices */ 
+
+
 @media (max-width: 576px) {
-    h1 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
+
+    .hero-img {
+        padding: 30px 10px;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .quiz-title {
+        font-size: 3.5rem; /* I think max size in case of quite thin mobile, while on one line */ 
+        word-wrap: break-word; /* this isn't actually breaking the word at the moment... */ 
+    }
+
+    .quiz-sub {
+        font-size: 3rem;
     }
 }
