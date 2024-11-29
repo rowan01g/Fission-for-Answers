@@ -187,5 +187,23 @@ body {
     width: 0%;
 }
 
+.quit-button {
+    justify-content: left;
+    padding-left: 16rem;
+    display: flex;
+    position: relative;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#quit-btn {
+    color: #fff;
+    background: linear-gradient(var(--french-violet) 20%, #111211 100%);
+    border-radius: 50px;
+    font-size: 2rem;
+    width: 20rem;
+    
+}
+
 
 
