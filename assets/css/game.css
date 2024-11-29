@@ -43,6 +43,22 @@ body {
     margin-top: 3rem;
 }
 
+#question {
+    font-size: 4vw ;
+}
+
+.question-text-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    position: relative;
+
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 80vw;
+}
+
 .choice-container {
     justify-content: center;
     display: flex;
