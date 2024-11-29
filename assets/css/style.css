@@ -27,7 +27,6 @@
     h1 {
         font-size: 5.4rem;
         color: #fff;
-        margin-bottom: 5rem;
     }
     
     h2 {
@@ -178,6 +177,8 @@
         margin-bottom: 4rem ;
     }
 
+    /*Style font awesome icons*/
+
     .fa-rocket {
         font-size: 2.5rem;
         margin-left: 1rem;
@@ -193,7 +194,17 @@
         margin-left: 1rem;
     }
 
-/*Responsive Design*/
+    .fa-rotate-right {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .fa-globe {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
+/*Responsive Design
 
 @media (max-width: 1200px) {
     h1 {
@@ -222,3 +233,5 @@
         margin-bottom: 2rem;
     }
 }
+
+*/
