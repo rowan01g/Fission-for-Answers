@@ -42,10 +42,15 @@
         margin-bottom: 4rem;
     }
 
+
+    #home {
+        width: 100%;
+    }
+
 /*need to make a media query for this*/
     .hero-img {
         position: relative;
-        width: 500%;
+        width: 100%;
         height: 500px;
         margin: auto 0;
         background: url(../images/outer-space.jpg);
@@ -115,14 +120,12 @@
     }
 
     .container {
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        min-height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center; 
-        max-width: 80rem;
-        margin: 0 auto;
-        padding: 2rem;
+        padding: 0 100px;
     }
 
     .flex-column {
@@ -231,16 +234,48 @@
 }
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 2.8rem;
-        margin-bottom: 2.5rem;
+    .quiz-title {
+        font-size: 4.5rem;
+        white-space: nowrap;
+
+    }
+
+    .quiz-sub {
+        font-size: 3.5rem; /* to be smaller than the heading for consistency's sake */
+        margin-top: 30px;
+    }
+
+    .hero-img {
+        max-height: 300px;
+    
+    }
+
+    .container {
+        padding: 20px;
     }
 }
 
+
+/* MOBILE !! */ 
 @media (max-width: 576px) {
-    h1 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
+    .quiz-title {
+        font-size: 3rem; /* i think max in case of small smart phone i.e. approx 375px */ 
+        white-space: nowrap;
+
+    }
+
+    .quiz-sub {
+        font-size: 2.5rem; /* to be smaller than the heading for consistency's sake */
+        margin-top: 30px;
+    }
+
+    .hero-img {
+        max-height: 300px;
+    
+    }
+
+    .container {
+        padding: 20px;
     }
 }
 
