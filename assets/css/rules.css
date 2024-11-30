@@ -56,3 +56,33 @@ a {
 a: hover {
     background-color: #9d4edd; /* Button hover color */
 }
+/*Scrolling text */
+
+#scrolling-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    background: #9d4edd;
+    
+    color: #ffffff;
+    font-size: 20px;
+    padding: 40px 0;
+    box-sizing: border-box;
+  }
+
+  #scrolling-text span {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    animation: scroll-text 10s linear infinite;
+  }
+
+  @keyframes scroll-text {
+    from {
+      transform: translateX(300%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
