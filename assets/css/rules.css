@@ -1,5 +1,5 @@
 body {
-    background: url('../assets/images/rules2.jpeg') no-repeat center center fixed;
+    background: url('/assets/images/rules2.jpeg') no-repeat center center fixed;
     background-size: cover;
     color: #343a40; /* Example text color */
 }
@@ -39,5 +39,20 @@ body {
 }
 
 .btn-color:hover {
+    background-color: #9d4edd; /* Button hover color */
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: #9d4edd;
+    background-color: #7b2cbf;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+
+}
+
+a: hover {
     background-color: #9d4edd; /* Button hover color */
 }
