@@ -1,5 +1,5 @@
 body {
-    background: url('/assets/images/rules2.jpeg') no-repeat center center fixed;
+    background: url('./assets/images/rules2.jpeg') no-repeat center center fixed;
     background-size: cover;
     color: #343a40; /* Example text color */
 }
