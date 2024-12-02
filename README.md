@@ -357,8 +357,7 @@ However, the contrast on Wave accessibility did not show this error.
 
 #### Fonts: 
 
-**Headings:**
-
+**Headings:** the font family Bellota+Text was used for the headings and text questions.
 
 **Subheading:** the font family 'Space Grotesk' in cursive was selected to show emphasis and contrast against the title. The same font was used for the heading on the Game page to give consistency and show progress through the site for the user. 
 
