@@ -82,10 +82,11 @@ And here are the specifics
 
 ## Bugs:
 Due to time contraints in this project, the deployed site matched the MVP. However, there were some minor bugs which should be ammended with an update. 
-- The colour contrast between the chosen purple and dark grey do not meet accessibility requirements.
+- The colour contrast between the chosen purple and dark grey do not meet accessibility requirements. 
+- Further labels, and more HTML semantics to make the webpage more accessible. 
+- Directional elements e.g., forward and backward buttons on the answers etc. 
 
 # Design 
-
 
 ### Colour scheme 
 
@@ -324,7 +325,7 @@ The website is intented to be accessible to all (within reason). Therefore valid
 ### Accessibility
 
 **Wave:** 
-Showed no errors ![index HTML Google Lighthouse](/assets/images/readme/wave-accessibility.png)
+Showed no errors through all pages of the website. [index HTML Google Lighthouse](/assets/images/readme/wave-accessibility.png)
 
 #### Home Page 
 **Google Lighthouse:**
