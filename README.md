@@ -79,12 +79,14 @@ And here are the specifics
 - Bonus points for speed of answers and/or a countdown timer, to give users an allotted amount of time for each answer.
 - More questions from an external database. 
 - A 'light mode' toggle, with accessible colours for players who may be visually impaired.
+- Directional elements e.g., forward and backward buttons on the answers etc. 
+
 
 ## Bugs:
 Due to time contraints in this project, the deployed site matched the MVP. However, there were some minor bugs which should be ammended with an update. 
 - The colour contrast between the chosen purple and dark grey do not meet accessibility requirements. 
 - Further labels, and more HTML semantics to make the webpage more accessible. 
-- Directional elements e.g., forward and backward buttons on the answers etc. 
+- JavaScript syntax correction e.g., missing semi colons. 
 
 # Design 
 
@@ -322,6 +324,8 @@ The code in this project was organised into defined sections (including seperate
 
 The website is intented to be accessible to all (within reason). Therefore validation and testing of both the code and final project design was completed to ensure best practise of accessibility and user experience.
 
+** Manual Testing:** was performed by the group throughout the building process. A deployed verson of the site was previewed by external users to help identify anything else which might have been otherwise overlooked.
+
 ### Accessibility
 
 **Wave:** 
@@ -346,8 +350,18 @@ W3C: Passed ![index HTML validation](/assets/images/readme/html-validation.png)
 W3C: Passed ![index CSS validation](/assets/images/readme/css-validation.png)
 
 #### JavaScript: 
+JavaScript was checked for any major errors in code. Due to time constraints, small semantic errors such as missing semi-colons were overlooked. However, in the interest of good practise this should be ammended with an update please see [future features](#future-features).
 
-### Design:
+![JS-Hint](/assets/images/readme/[future features](
+#future-features).
+ 
+![JS-Hint](/assets/images/readme/js-validation.png)
+
+#### Colour contrast:
+Unfortunately this failed. 
+![contrast result](/assets/images/readme/contrast.png)
+<br>
+
 
 #### Colour contrast:
 Unfortunately this failed. 
@@ -363,13 +377,64 @@ However, the contrast on Wave accessibility did not show this error.
 
 # Insallation and Prerequisites for running
 
-* Prerequesites *
+### Prerequisites
+
+1. **Web Browser**: Ensure you have a modern web browser installed.
+    - Examples: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari.
+
+2. **Text Editor/IDE** (optional): For exploring or modifying the code.
+    - Examples: Visual Studio Code, Sublime Text, Atom, Notepad++.
+
+3. **Git**: To clone the repository.
+    - [Git Download and Installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+4. **Node.js and npm** (optional, if using any build tools or package management):
+    - Download and install from [Node.js website](https://nodejs.org/).
+
+### Installation and Setup
+
+1. **Clone the Repository**: (if applicable)
+    ```bash
+    git clone https://github.com/username/repo-name.git
+    ```
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd repo-name
+    ```
+3. **Install Dependencies** (if any, for example, using npm):
+    ```bash
+    npm install
+    ```
+4. **Open the `index.html` File in a Web Browser**:
+    - Simply double-click the `index.html` file, or
+    - Use the following command in your terminal if you have live-server installed:
+      ```bash
+      live-server
+      ```
+
+### Running the Project
+
+1. **Start the Development Server** (if applicable):
+    ```bash
+    npm start
+    ```
+2. **Open the Project in a Web Browser**:
+    - Navigate to `http://localhost:3000` (or any other specified port) in your web browser.
+
+### Additional Setup
+
+1. **Browser Extensions** (optional): If your project uses any specific browser extensions or add-ons, list them here.
+
+### Notes
+
+- Ensure all HTML, CSS, and JavaScript files are properly linked.
+- Make sure to have a stable internet connection if your project fetches any external resources.
+
 
 ## Usage 
 
 Fission 4 Answers is designed for recreational and educarional usage, for those who wish to test or improve their science knowledge. This is not designed to align with any curriculum. 
 
-** Maybe include a little video/walk through tutorial if there's any time? **
 
 # AI Tools 
 
@@ -377,8 +442,18 @@ AI was utilised in this project in serveral areas.
 
 ### Debugging:
 
-### Code Optimisation:
+AI was used to identify any obvious bugs, when the server did not display the design or junctionality as expected. This helped to reduce the effect of syntax errors and dramatically reduce time spent trying to find them!
 
+Although, in some instances AI "solved" bugs by implementing code which already existed and would not use the msot direct method. Therefore debugging was also preformed manually to ensure a good final product. 
+
+### Code Optimisation:
+AI was ued to identify areas within the written code which could be optimised. This was completed to find any missing aria-labels from the project. However, as much as this was fast and less tedious than manual, AI did omiss some buttons, such as the "contact us" button in the footer element. Therefore, when using AI for code optimisation, suggested code was carefully checked and the project itself checked over. Software such as Wave Accessibility was helpful in ammending any omissions.
+
+![example screenshot from copilot of aria label suggestions](/assets/images/readme/ai-optimisation.png)
+
+AI was also used to convert text files into HTML/markdown language for the README, to save time and allow more focus to details and features of the project. 
+
+![example screenshot from copilot of converted User Stories](/assets/images/readme/user-optimisation.png)
 ### Reflection on the use of AI in this project:
 
 The use of AI has allowed this project to be created in a more timely manner. AI for **debugging** helped to identify small errors and typos which would have taken considerably longer if done by hand (or eye?).
@@ -389,6 +464,7 @@ Finally, AI was a useful tool in the intial planning stage, such as in the gener
 
 # General Project Reflections
 
+In the future I think following some written processes of good practises would be beneficial to save time, espeically in the context of group work and merging branches.
 
 
 # Contribution 
@@ -403,9 +479,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 # Creators and Contact 
 
-Rowan 
-[GitHub:](https://github.com/rowan01g)
-[Email:](mailto:) <!--- rowan if u want to add this pls do >
+Rowan <br>
+[GitHub](https://github.com/rowan01g)
+<br>
+[Email](mailto:rowansemailaddress)
 
 Geza 
 <br>
@@ -422,30 +499,34 @@ Jess
 
 # Credits and Acknowledgements 
 
-### Software utilised: 
+### Software and languages utilised: 
 - VS Code. 
 - Balsamiq. 
-- Bootstrap. 
 - Copilot.
+- HTML5: To structure the content and layout of the website.
+- CSS: For styling the appearance, layout, and design of the website.
+- JavaScript: To add interactivity and dynamic functionality to the quiz.
 
 #### Design:
 
-Favicon: 
+- Favicon: 
 <a href="https://www.flaticon.com/free-icons/fishing-baits" title="fishing-baits icons">Fishing-baits icons created by Bima Pamungkas - Flaticon</a>
+- Font Awesome 
+- Canva 
+- Google fonts 
 
-#### Languages:
-- CSS
-- HTML5 
-- JavaScript 
 
 #### Validation Software:
-[W3C HTML Validator] (https://validator.w3.org/)
-[W3C CSS Validator] (https://jigsaw.w3.org/css-validator/)
-[JavaScript Validator] ()
+[W3C HTML Validator](https://validator.w3.org/)
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+[JavaScript Validator](https://jshint.com/)
 
 #### Accessibility Software:
 - Colour contrast [WCAG](https://accessibleweb.com/color-contrast-checker/)
 - [Google Lighthouse](https://developer.chrome.com/docs/lighthouse)
 
 #### Misc resources accessed:
+- Instillation and set up information accessed via Copilot. 
+- Dillon !! Thank you!! 
+- [This slide](https://docs.google.com/presentation/d/10uZvcnvKIMEcbr2XrpFZHiblTx8EIdM4gBapsvY3NDI/edit#slide=id.g2ee9cbc69eb_1_3)
 

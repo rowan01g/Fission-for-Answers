@@ -1,14 +1,14 @@
-const question = document.querySelector('#question') 
-const choices = Array.from(document.querySelectorAll('.choice-text')) 
-const progressText = document.querySelector('#progressText')
-const scoreText = document.querySelector('#score')
-const progressBarFull = document.querySelector('#progressBarFull')
+const question = document.querySelector('#question');
+const choices = Array.from(document.querySelectorAll('.choice-text'));
+const progressText = document.querySelector('#progressText');
+const scoreText = document.querySelector('#score');
+const progressBarFull = document.querySelector('#progressBarFull');
 
-let currentQuestion = {}
-let acceptingAnswers = true 
-let score = 0 
-let questionCounter = 0
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
 
 let questions = [ //question bank - physics, need to add chemistry and biology
     
@@ -461,8 +461,8 @@ let questions = [ //question bank - physics, need to add chemistry and biology
 10 points are earned for every question correctly answered
 and only 10 questions may be answered
 */
-const SCORE_POINTS = 10
-const MAX_QUESTIONS = 10
+const SCORE_POINTS = 10;
+const MAX_QUESTIONS = 10;
 
 /*
 The arrow function startGame ensures the question counter and score are set to 0. 
@@ -470,10 +470,10 @@ The variable availibleQuestions is also created from the questions bank
 The function getNewQuestion is called at the start fof the game 
 */
 startGame = () => {
-    questionCounter = 0 
-    score = 0 
-    availableQuestions = [...questions]
-    getNewQuestion()
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
 }
 
 /*
@@ -495,7 +495,7 @@ The question just presented is then removed from the availibleQuestions pool usi
 
 getNewQuestion = () => {
 
-    questionCounter++ 
+    questionCounter++;
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS ) {
         localStorage.setItem('mostRecentScore', score)
         return window.location.assign('end.html')
