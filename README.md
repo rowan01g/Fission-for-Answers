@@ -28,24 +28,24 @@
 
 # Fission-for-Answers
 
-## Table of Contents
-- [Project Overview](#project-overview) 
-- [Features](#features) 
+# Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
 - [Design](#design)
 - [UX](#ux)
-- [Installation](#installation) 
-- [Usage](#usage) 
-- [Testing and Validation](#testing-and-validation) 
-- [Deployment](#deployment) 
-- [Documentation](#documentation) 
-- [Code Organization] 
-- [JavaScript Functionality]
+- [Planning](#planning)
+- [Documentation](#documentation)
+- [Validation and Testing](#validation-and-testing)
+- [Installation and Prerequisites for Running](#installation-and-prerequisites-for-running)
+- [Usage](#usage)
 - [AI Tools](#ai-tools)
-- [Screenshots] 
-- [Contributions]
-- [License] 
-- [Contact]
-- [Acknowledgements] 
+- [General Project Reflections](#general-project-reflections)
+- [Contribution](#contribution)
+- [License](#license)
+- [Creators and Contact](#creators-and-contact)
+- [Credits and Acknowledgements](#credits-and-acknowledgements)
+
 
 # Project Overview
 
