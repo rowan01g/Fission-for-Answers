@@ -322,6 +322,9 @@ Passed ![index HTML Google Lighthouse](/assets/images/readme/index-accessibility
 #### Rules Page
 **Google Lighthouse:** Passed ![Rules Acessibility Google Lighthouse](/assets/images/readme/rules-accessibility.png)
 
+#### Game Page 
+**Google Lighthouse:** ![Game page google lighthouse](/assets/images/readme/game-lighthouse.png)
+
 #### HTML:
 
 W3C: Passed ![index HTML validation](/assets/images/readme/html-validation.png)
