@@ -566,8 +566,9 @@ incrementScore = num => {
 startGame()
 
 /* Jess' attempt at adding keyboard scrolling */ 
+
 document.querySelector('.choice-container-container').addEventListener('keydown', function(e) {
-    const scrollAmount = 10; // Adjust scroll amount as needed
+    const scrollAmount = 10;
     if (e.key === 'ArrowDown') {
         this.scrollTop += scrollAmount;
     }

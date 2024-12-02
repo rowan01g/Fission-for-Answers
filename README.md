@@ -91,12 +91,9 @@ The following colours were used to create a changing gradient glow effect on the
 
 ## Planning
 
-### Project Board 
-
-![fission for answers group project board](/assets/images/readme/project-board.png)
-
 ### User Stories 
 
+User stories were generated with the assistance of AI (namely, Copilot). Prompts were ammended and answers fine tuned to meet the project criteria in view of time contraints. 
 <div class="speech-bubble">
   <p><strong>User Story:</strong> As a player, I want to see a countdown timer for each question, so that I feel challenged to answer quickly and accurately.</p>
   <p><strong>Acceptance Criteria:</strong></p>
@@ -285,7 +282,18 @@ The following colours were used to create a changing gradient glow effect on the
   </ol>
 </div>
 
+### Project Board 
 
+User stories were turned into 'Issues' on a project board, allowing syncronous group work and clear allocation of tasks which assisted in iliciting minimal merge conflicts. 
+
+![fission for answers group project board](/assets/images/readme/project-board.png)
+
+#### Group Working 
+
+We had frequent check ins, and worked in serperate branches. We compared and ensured no merge conflicts between our branch and the main. 
+*Example Merge, with some commits and comments for context*
+
+![jess merge example](/assets/images/readme/merge-exaple.png)
 
 
 
@@ -301,12 +309,15 @@ The code in this project was organised into defined sections (including seperate
 
 The website is intented to be accessible to all (within reason). Therefore validation and testing of both the code and final project design was completed to ensure best practise of accessibility and user experience.
 
-### Google Lighthouse
+### Accessibility
 
-**Home Page:**
+#### Home Page 
+**Google Lighthouse:**
 Passed ![index HTML Google Lighthouse](/assets/images/readme/index-accessibility.png)
+**Accessible Web Helper:** ![index HTML](/assets/images/readme/accessibility-extension.png)
 
-**Rules Page:** Passed ![Rules Acessibility Google Lighthouse](/assets/images/readme/rules-accessibility.png)
+#### Rules Page
+**Google Lighthouse:** Passed ![Rules Acessibility Google Lighthouse](/assets/images/readme/rules-accessibility.png)
 
 #### HTML:
 
