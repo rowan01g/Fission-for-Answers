@@ -427,6 +427,5 @@ Favicon:
 - Colour contrast [WCAG](https://accessibleweb.com/color-contrast-checker/)
 - [Google Lighthouse](https://developer.chrome.com/docs/lighthouse)
 
-
 #### Misc resources accessed:
 - 
