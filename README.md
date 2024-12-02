@@ -399,7 +399,7 @@ Please see [this documentation](https://docs.github.com/en/pull-requests/collabo
 
 # License
 
-?? Unsure of what actually goes in here, but resources online all seem to include this section.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 # Creators and Contact 
 
