@@ -372,9 +372,9 @@ Rowan
 
 Geza 
 <br>
-[GitHub:](https://github.com/BristolGeza)
+[GitHub](https://github.com/BristolGeza)
 <br>
-[Email:] (mailto:geza.csosz@gmail.com)
+[Email](mailto:geza.csosz@gmail.com)
 
 Jess 
 <br>
