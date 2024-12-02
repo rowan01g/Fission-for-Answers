@@ -82,10 +82,11 @@ And here are the specifics
 
 ## Bugs:
 Due to time contraints in this project, the deployed site matched the MVP. However, there were some minor bugs which should be ammended with an update. 
-- The colour contrast between the chosen purple and dark grey do not meet accessibility requirements.
+- The colour contrast between the chosen purple and dark grey do not meet accessibility requirements. 
+- Further labels, and more HTML semantics to make the webpage more accessible. 
+- Directional elements e.g., forward and backward buttons on the answers etc. 
 
 # Design 
-
 
 ### Colour scheme 
 
@@ -323,6 +324,9 @@ The website is intented to be accessible to all (within reason). Therefore valid
 
 ### Accessibility
 
+**Wave:** 
+Showed no errors through all pages of the website. [index HTML Google Lighthouse](/assets/images/readme/wave-accessibility.png)
+
 #### Home Page 
 **Google Lighthouse:**
 Passed ![index HTML Google Lighthouse](/assets/images/readme/index-accessibility.png)
@@ -348,11 +352,12 @@ W3C: Passed ![index CSS validation](/assets/images/readme/css-validation.png)
 #### Colour contrast:
 Unfortunately this failed. 
 ![contrast result](/assets/images/readme/contrast.png)
+<br>
+However, the contrast on Wave accessibility did not show this error. 
 
 #### Fonts: 
 
-**Headings:**
-
+**Headings:** the font family Bellota+Text was used for the headings and text questions.
 
 **Subheading:** the font family 'Space Grotesk' in cursive was selected to show emphasis and contrast against the title. The same font was used for the heading on the Game page to give consistency and show progress through the site for the user. 
 
@@ -399,8 +404,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 # Creators and Contact 
 
 Rowan 
-[GitHub:]
-[Email:] (mailto:)
+[GitHub:](https://github.com/rowan01g)
+[Email:](mailto:) <!--- rowan if u want to add this pls do >
 
 Geza 
 <br>
