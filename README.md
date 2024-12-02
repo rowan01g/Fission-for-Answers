@@ -28,28 +28,30 @@
 
 # Fission-for-Answers
 
-## Table of Contents
-- [Project Overview](#project-overview) 
-- [Features](#features) 
+# Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
 - [Design](#design)
 - [UX](#ux)
-- [Installation](#installation) 
-- [Usage](#usage) 
-- [Testing and Validation](#testing-and-validation) 
-- [Deployment](#deployment) 
-- [Documentation](#documentation) 
-- [Code Organization] 
-- [JavaScript Functionality]
+- [Planning](#planning)
+- [Documentation](#documentation)
+- [Validation and Testing](#validation-and-testing)
+- [Installation and Prerequisites for Running](#installation-and-prerequisites-for-running)
+- [Usage](#usage)
 - [AI Tools](#ai-tools)
-- [Screenshots] 
-- [Contributions]
-- [License] 
-- [Contact]
-- [Acknowledgements] 
+- [General Project Reflections](#general-project-reflections)
+- [Contribution](#contribution)
+- [License](#license)
+- [Creators and Contact](#creators-and-contact)
+- [Credits and Acknowledgements](#credits-and-acknowledgements)
+
 
 # Project Overview
 
 **Fission 4 Answers** is an interactive science quiz game, intended as general knowledge, with a mixture of question difficulty. We have provided 4 game modes for players. All questions, Chemistry, Physics or Biology. 
+
+View the [Deployed Site](https://rowan01g.github.io/Fission-for-Answers/)
 
 ### Project Goal
 The overall project goal was to create an interactive quiz website using HTML, CSS and JavaScript. While utlising tools such as AI, to enhance design and debugging, inline with the [marking crtieria](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSBC_H1AI+1/courseware/8765212c3d0c4f9ca95ce2e6de9ae626/5a0e79ed85344b13887067937f5d27b6/).
@@ -74,6 +76,7 @@ And here are the specifics
 - Ability to store users score, additionally, to share a players score with friends/to social media to challenge others. 
 - Bonus points for speed of answers and/or a countdown timer, to give users an allotted amount of time for each answer.
 - More questions from an external database. 
+- A 'light mode' toggle, with accessible colours for players who may be visually impaired.
 
 # Design 
 
@@ -318,6 +321,9 @@ Passed ![index HTML Google Lighthouse](/assets/images/readme/index-accessibility
 
 #### Rules Page
 **Google Lighthouse:** Passed ![Rules Acessibility Google Lighthouse](/assets/images/readme/rules-accessibility.png)
+
+#### Game Page 
+**Google Lighthouse:** ![Game page google lighthouse](/assets/images/readme/game-lighthouse.png)
 
 #### HTML:
 
