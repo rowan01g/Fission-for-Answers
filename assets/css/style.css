@@ -227,6 +227,63 @@
         margin-left: 1rem;
     }
 
+
+    /* Footer styling  */ 
+
+    /* Footer styling, should really make responsive to bigger screens but will leave as is for now, sorry!! */
+.footer {
+    background-color: var(--russian-violet);
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#social-networks {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#social-networks li {
+    margin: 0 1rem;
+}
+
+#social-networks a {
+    color: #fff;
+    font-size: 2.4rem; /* Matching the button font size */
+    text-decoration: none;
+}
+
+#social-networks a:hover {
+    color: var(--amethyst);
+}
+
+.footer-center p {
+    margin: 1rem 0;
+    font-size: 1.2rem; /* Smaller font size for the copyright section */
+}
+
+#contact-us {
+    display: inline-block;
+    margin: 0.5rem 0;
+    padding: 1rem 2rem;
+    font-size: 1.8rem; /* Adjusted to be slightly smaller than the buttons */
+    color: rgb(29, 26, 26);
+    background: linear-gradient(var(--amethyst) 0%, var(--french-violet) 100%);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#contact-us:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 var(--amethyst);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+
 /*Responsive Design */
 /* buttons inline for BIG desktops */
 
