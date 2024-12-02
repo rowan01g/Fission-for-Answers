@@ -28,6 +28,8 @@
 
 # Fission-for-Answers
 
+![Deployed Site on Devices](/assets/images/readme/home-ux.png)
+
 # Table of Contents
 
 - [Project Overview](#project-overview)
@@ -78,6 +80,10 @@ And here are the specifics
 - More questions from an external database. 
 - A 'light mode' toggle, with accessible colours for players who may be visually impaired.
 
+## Bugs:
+Due to time contraints in this project, the deployed site matched the MVP. However, there were some minor bugs which should be ammended with an update. 
+- The colour contrast between the chosen purple and dark grey do not meet accessibility requirements.
+
 # Design 
 
 
@@ -91,6 +97,9 @@ The following colours were used to create a changing gradient glow effect on the
 
 
 ## UX
+
+![Deployed Site on Devices](/assets/images/readme/other-ux.png)
+
 
 ## Planning
 
@@ -337,9 +346,15 @@ W3C: Passed ![index CSS validation](/assets/images/readme/css-validation.png)
 ### Design:
 
 #### Colour contrast:
+Unfortunately this failed. 
+![contrast result](/assets/images/readme/contrast.png)
 
-#### Font: 
+#### Fonts: 
 
+**Headings:**
+
+
+**Subheading:** the font family 'Space Grotesk' in cursive was selected to show emphasis and contrast against the title. The same font was used for the heading on the Game page to give consistency and show progress through the site for the user. 
 
 # Insallation and Prerequisites for running
 
@@ -428,4 +443,4 @@ Favicon:
 - [Google Lighthouse](https://developer.chrome.com/docs/lighthouse)
 
 #### Misc resources accessed:
-- 
+
