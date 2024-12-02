@@ -290,10 +290,10 @@ User stories were turned into 'Issues' on a project board, allowing syncronous g
 
 #### Group Working 
 
-We had frequent check ins, and worked in serperate branches. We compared and ensured no merge conflicts between our branch and the main. 
-*Example Merge, with some commits and comments for context*
+We had frequent check ins, and worked in serperate branches. We also focused on different areas of the project. 
+We compared and ensured no merge conflicts between our branch and the main before pushing changes. 
 
-![jess merge example](/assets/images/readme/merge-exaple.png)
+![merge example](/assets/images/readme/merge-example.png)
 
 
 
@@ -400,6 +400,11 @@ Jess
 - Bootstrap. 
 - Copilot.
 
+#### Design:
+
+Favicon: 
+<a href="https://www.flaticon.com/free-icons/fishing-baits" title="fishing-baits icons">Fishing-baits icons created by Bima Pamungkas - Flaticon</a>
+
 #### Languages:
 - CSS
 - HTML5 
@@ -411,8 +416,8 @@ Jess
 [JavaScript Validator] ()
 
 #### Accessibility Software:
-- Colour contrast [WCAG] (https://accessibleweb.com/color-contrast-checker/)
-- [Google Lighthouse] (https://developer.chrome.com/docs/lighthouse)
+- Colour contrast [WCAG](https://accessibleweb.com/color-contrast-checker/)
+- [Google Lighthouse](https://developer.chrome.com/docs/lighthouse)
 
 
 #### Misc resources accessed:
