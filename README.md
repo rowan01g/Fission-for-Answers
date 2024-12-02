@@ -60,20 +60,29 @@ And here are the specifics
 # Features
 
 ## Existing Features 
-- Interactive quizzes with immediate feedback. 
-- 2 difficulty levels (easy and hard). 
-- Progress tracking and scoring. 
-- Responsive design for multiple devices. - Accessibility features - incl: 
+- Interactive quiz, with immediate correct/incorrect feedback.
+- Progress tracking during game play. 
+- Responsive design for multiple devices. 
+- A choice of subjects - physics, chemistry and biology.
+
+- Accessibility features - incl: 
 
 ## Future features
-- Medium difficulty levels. 
-- Subject specific levels.
-- "Hint" feature - perhaps an image toggle.
+- A choice of difficulty levels. 
+- "Hint" feature - *perhaps an image toggle to see the hint.*
+- A "start over" button during gameplay. 
+- Ability to store users score, additionally, to share a players score with friends/to social media to challenge others. 
+- Bonus points for speed of answers and/or a countdown timer, to give users an allotted amount of time for each answer.
+- More questions from an external database. 
 
 # Design 
 
 
 ### Colour scheme 
+
+We chose a dark background colour scheme to align with the space theme of the hero image, icons and buttons. Specifically these were:
+![base colour scheme used on Quiz](/assets/images/readme/base-colours.png)
+
 The following colours were used to create a changing gradient glow effect on the hero image. 
 ![gradient colour scheme and hex values](/assets/images/readme/glow-colours.png)
 
@@ -81,6 +90,10 @@ The following colours were used to create a changing gradient glow effect on the
 ## UX
 
 ## Planning
+
+### Project Board 
+
+![fission for answers group project board](/assets/images/readme/project-board.png)
 
 ### User Stories 
 
@@ -335,7 +348,11 @@ The use of AI has allowed this project to be created in a more timely manner. AI
 <br>
 In **code optimisation**, AI was able to suggest areas in which the code could be made shorter/more effective, and suggest alternative work-arounds for design. This was most appropriate in the CSS and HTML of the wesbite, as JavaScript information tended to be less reliable, although a useful tool nonetheless. 
 <br>
-Finally, AI was a useful tool in the intial planning stage, such as in the generation and optimisation of the [User Stories](#user-stories). AI was also used to suggest initial **code generation**, to give an idea of where to start - although this was not used in the final project. 
+Finally, AI was a useful tool in the intial planning stage, such as in the generation and optimisation of the [User Stories](#user-stories). AI was also used to suggest initial **code generation**, to give an idea of where to start - although this was not used in the final project.
+
+# General Project Reflections
+
+
 
 # Contribution 
 
