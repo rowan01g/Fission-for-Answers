@@ -323,6 +323,9 @@ The website is intented to be accessible to all (within reason). Therefore valid
 
 ### Accessibility
 
+**Wave:** 
+Showed no errors ![index HTML Google Lighthouse](/assets/images/readme/wave-accessibility.png)
+
 #### Home Page 
 **Google Lighthouse:**
 Passed ![index HTML Google Lighthouse](/assets/images/readme/index-accessibility.png)
@@ -348,6 +351,8 @@ W3C: Passed ![index CSS validation](/assets/images/readme/css-validation.png)
 #### Colour contrast:
 Unfortunately this failed. 
 ![contrast result](/assets/images/readme/contrast.png)
+<br>
+However, the contrast on Wave accessibility did not show this error. 
 
 #### Fonts: 
 
