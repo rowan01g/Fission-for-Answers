@@ -428,4 +428,4 @@ Favicon:
 - [Google Lighthouse](https://developer.chrome.com/docs/lighthouse)
 
 #### Misc resources accessed:
-- 
+
