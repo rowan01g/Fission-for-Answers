@@ -49,7 +49,7 @@
 
 # Project Overview
 
-**Fission 4 Answers** is an interactive sciece quiz game, intended for players of varying knowledge with adjustable difficulties. We have provided a high score cache for players to compete with themselves or each other.
+**Fission 4 Answers** is an interactive science quiz game, intended as general knowledge, with a mixture of question difficulty. We have provided 4 game modes for players. All questions, Chemistry, Physics or Biology. 
 
 ### Project Goal
 The overall project goal was to create an interactive quiz website using HTML, CSS and JavaScript. While utlising tools such as AI, to enhance design and debugging, inline with the [marking crtieria](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSBC_H1AI+1/courseware/8765212c3d0c4f9ca95ce2e6de9ae626/5a0e79ed85344b13887067937f5d27b6/).
@@ -288,12 +288,19 @@ The code in this project was organised into defined sections (including seperate
 
 The website is intented to be accessible to all (within reason). Therefore validation and testing of both the code and final project design was completed to ensure best practise of accessibility and user experience.
 
+### Google Lighthouse
+
+**Home Page:**
+Passed ![index HTML Google Lighthouse](/assets/images/readme/index-accessibility.png)
+
+**Rules Page:** Passed ![Rules Acessibility Google Lighthouse](/assets/images/readme/rules-accessibility.png)
+
 #### HTML:
 
-W3C:
+W3C: Passed ![index HTML validation](/assets/images/readme/html-validation.png)
 
 #### CSS:
-W3C:
+W3C: Passed ![index CSS validation](/assets/images/readme/css-validation.png)
 
 #### JavaScript: 
 
