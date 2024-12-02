@@ -388,8 +388,10 @@ Rowan
 [Email:] (mailto:)
 
 Geza 
-[GitHub:]
-[Email:] (mailto:)
+<br>
+[GitHub](https://github.com/BristolGeza)
+<br>
+[Email](mailto:geza.csosz@gmail.com)
 
 Jess 
 <br>
