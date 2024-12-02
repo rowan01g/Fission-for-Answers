@@ -404,8 +404,8 @@ Please see [this documentation](https://docs.github.com/en/pull-requests/collabo
 # Creators and Contact 
 
 Rowan 
-[GitHub:]
-[Email:] (mailto:)
+[GitHub:](https://github.com/rowan01g)
+[Email:](mailto:) <!--- rowan if u want to add this pls do >
 
 Geza 
 <br>
