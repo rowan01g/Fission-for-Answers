@@ -1,29 +1,3 @@
-<style>
-.speech-bubble {
-    position: relative;
-    background: #f0f0f0;
-    border-radius: .4em;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-.speech-bubble:after {
-    content: '';
-    top: 50%; /* Center vertically */ 
-    left: -20px; /* Position it to the left of the speech bubble */ 
-    margin-top: -10px; /* Center the triangle vertically */
-    margin-left: -10px;
-    width: 0;
-    height: 0;
-    border: solid transparent;
-    border-color: rgba(255, 255, 255, 0);
-    border-bottom-color: #f0f0f0;
-    border-width: 10px;
-    pointer-events: none;
-}
-</style>
-
-
 
 
 # Fission-for-Answers
